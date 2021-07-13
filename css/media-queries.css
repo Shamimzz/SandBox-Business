@@ -1,0 +1,109 @@
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+      width: 100%;
+      margin: auto;
+    }
+
+    .full-width{
+      display: grid;
+      text-align: center;
+    }
+
+    .half-width{
+      width: 100%;
+      margin: 16px 0px;
+    }
+
+    .half-width #btn{
+      left: 0%;
+    }
+
+   .title{
+      width: 70%;
+   }
+
+   .all-box{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+   }
+   .content-box, .Member-profile{
+     text-align: center;
+     width: auto;
+   }
+
+   .half-width .right-content{
+     margin-top: 81px;
+   }
+
+   #Community-allbox{
+     margin-top: 80px;
+   }
+
+
+}
+
+
+@media only screen and (max-width: 950px) {
+
+
+    .full-width{
+        display: grid;
+        text-align: center;
+      }
+
+    .half-width{
+       width: auto;
+       margin: auto;
+      }
+
+    .all-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+    .half-width #btn{
+      left: 0%;
+    }
+
+    .half-width .right-content{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .title{
+        width: 70%;
+    }
+
+    .content-box, .Member-profile{
+       width: auto; 
+    }
+
+    .half-width{
+      margin: 40px 0px;
+    }
+    div#comu-1{
+        margin: 6px 34px -18px 35px;
+    }
+    div#comu-3{
+        margin: 62px 25px 6px 30px;
+        padding: 40px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 951px){
+
+    .container{
+        width: 94%;
+        margin: auto;
+      }
+
+
+
+
+
+}
